@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace JokeWebApp.Data.Migrations
+namespace JokeWebApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240130144046_InitailSetup")]
-    partial class InitailSetup
+    [Migration("20240725121055_initialsetup")]
+    partial class initialsetup
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
